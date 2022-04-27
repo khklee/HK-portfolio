@@ -3,9 +3,9 @@ import avatarImg from '../../assets/images/Avatar.png';
 
 function About() {
     return (
-        <section>
-            <h2>About Me</h2>
-            <img src={avatarImg} alt='avatar'/>
+        <section className='my-5'>
+            <h2 id='about'>About Me</h2>
+            <img src={avatarImg} className='my-2' alt='avatar'/>
             <p>
                 Hi, my name is Hyunkyoung Lee. I graduated in psychology for my bachelor degree, but after I got married with an enthusiastic back-end engineer, I became to be interested in coding. 
                 I've been really loving coding and developing websites because it is a creative art of creating different forms of expression by utilizing computer languages. 
