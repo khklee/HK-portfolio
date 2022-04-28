@@ -17,7 +17,7 @@ function Project() {
                 </a>
                 <div >
                     <h3>Tech Journal</h3>
-                    <h4>JavaScript/Node.js/MySQL/CSS</h4>
+                    <h4>JavaScript/Node.js/Express.js/MySQL/CSS</h4>
                 </div>
             </div>
             <div >
@@ -26,7 +26,7 @@ function Project() {
                 </a>
                 <div >
                     <h3>Candy Shop Inventory</h3>
-                    <h4>HTML/CSS/JavaScript/Node.js/MySQL</h4>
+                    <h4>HTML/CSS/JavaScript/Node.js/Express.js/MySQL</h4>
                 </div>
             </div>
             <div >
@@ -56,8 +56,6 @@ function Project() {
                     <h4>HTML/CSS/JavaScript</h4>
                 </div>
             </div>
-
-        
             <div >
                 <a href=" https://khklee.github.io/Password-Generator/" target="_blank" rel="noopener noreferrer">
                     <img src={password} alt="screentshot of Password-Generator"/>
