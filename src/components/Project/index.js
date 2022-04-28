@@ -10,7 +10,7 @@ import password from '../../assets/images/projects/password generator.png';
 function Project() {
     return (
         <div>
-            <h2>Portfolio</h2>
+            <h2 id='projects'>Portfolio</h2>
             <div>
                 <a href="https://secure-forest-02686.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                     <img src={tech} alt="screenshot of tech-journal"/>
