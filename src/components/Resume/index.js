@@ -2,8 +2,8 @@ import React from 'react';
 
 function Resume() {
     return(
-        <section>
-            <h2 id='resume'>Resume</h2>
+        <section className='container'>
+            <h2 className='sec-title' id='resume'>Resume</h2>
             <p>Download 
                 <a href='https://docs.google.com/document/d/1PxSVc311p9ro0iSvJysD6-Z5Xyz7L36gEgw9-Ind3vg/edit?usp=sharing'  target="_blank" rel="noreferrer">
                 &nbsp;resume

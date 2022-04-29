@@ -26,15 +26,17 @@ function Header() {
   
     const handlePageChange = (page) => setCurrentPage(page);
     return (
-        <header className='flex-row px-1'>
-            <h2><a href='/'>Hyunkyoung Kelly Lee</a></h2>
+        <div >
+          <header className='flex-row px-1'>
+            <h2 className='title'><a href='/'>Hyunkyoung Kelly Lee</a></h2>
             <nav>
                 <Navigation currentPage={currentPage} handlePageChange={handlePageChange}></Navigation>
             </nav>
-            <main>
-                {renderPage()}
-            </main>
-        </header>
+          </header>
+          <main>
+              {renderPage()}
+          </main>
+        </div>
     );
 }
 

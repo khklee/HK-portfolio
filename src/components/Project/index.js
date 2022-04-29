@@ -5,63 +5,76 @@ import tech from '../../assets/images/projects/tech-journal.png';
 import weather from '../../assets/images/projects/weather dashboard.png';
 import task from '../../assets/images/projects/Taskmaster Pro.png';
 import password from '../../assets/images/projects/password generator.png';
+import githubImg from '../../assets/images/Github.png';
 
 
 function Project() {
     return (
-        <div>
-            <h2 id='projects'>Portfolio</h2>
-            <div>
-                <a href="https://secure-forest-02686.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                    <img src={tech} alt="screenshot of tech-journal"/>
-                </a>
-                <div >
-                    <h3>Tech Journal</h3>
-                    <h4>JavaScript/Node.js/Express.js/MySQL/CSS</h4>
+        <div className='container'>
+            <h2 className='sec-title' id='projects'>Portfolio</h2>
+            <div className='project'>
+                <img className='proj-img' src={tech} alt="screenshot of tech-journal"/>
+                <div className='centered'>
+                    <h3>Tech Journal                 
+                        <a href="https://github.com/khklee/Tech-Journal" target="_blank" rel="noopener noreferrer">
+                            &nbsp;<img className='git-img' src={githubImg} alt='github'/>
+                        </a>
+                    </h3>
+                    <h4>JavaScript/Node.js/<br/>Express.js/MySQL/CSS</h4>
                 </div>
             </div>
-            <div >
-                <a href="https://candy-shop-e-commerce.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                    <img src={candy} alt="screentshot of Candy shop" />
-                </a>
-                <div >
-                    <h3>Candy Shop Inventory</h3>
-                    <h4>HTML/CSS/JavaScript/Node.js/Express.js/MySQL</h4>
+            <div className='project'>
+                <img className='proj-img' src={candy} alt="screentshot of Candy shop" />
+                <div className='centered'>
+                    <h3>Candy Inventory
+                        <a href=" https://github.com/CMahoney12/Candy-Shop-Inventory" target="_blank" rel="noopener noreferrer">
+                            &nbsp;<img className='git-img' src={githubImg} alt='github'/>
+                        </a>
+                    </h3>
+                    <h4>HTML/CSS/JavaScript/Node.js/<br/>Express.js/MySQL</h4>
                 </div>
             </div>
-            <div >
-                <a href="https://bullmoosedev.github.io/Crypto-Checker/" target="_blank" rel="noopener noreferrer">
-                    <img src={crypto} alt="screentshot of Crypto-Checker"/>
-                </a>
-                <div >
-                    <h3>Crypto-Checker</h3>
+            <div className='project'>
+                <img className='proj-img' src={crypto} alt="screentshot of Crypto-Checker"/>
+                <div className='centered'>
+                    <h3>Crypto-Checker                   
+                        <a href="https://github.com/BullMooseDev/Crypto-Checker" target="_blank" rel="noopener noreferrer">
+                            &nbsp;<img className='git-img' src={githubImg} alt='github'/>
+                        </a>
+                    </h3>
                     <h4>HTML/CSS/JavaScript/API</h4>
                 </div>
             </div>
-            <div >
-                <a href=" https://khklee.github.io/Weather-Dashboard/" target="_blank" rel="noopener noreferrer">
-                    <img src={weather} alt="screentshot of Weather-Dashboard"/>
-                </a>
-                <div class="work-detail">
-                    <h3>Weather-Dashboard</h3>
+            <div className='project'>
+                <img className='proj-img' src={weather} alt="screentshot of Weather-Dashboard"/>
+                <div className='centered'>
+                    <h3>Weather-Dashboard
+                        <a href="https://github.com/khklee/Weather-Dashboard" target="_blank" rel="noopener noreferrer">
+                            &nbsp;<img className='git-img' src={githubImg} alt='github'/>
+                        </a>
+                    </h3>
                     <h4>HTML/CSS/JavaScript/API</h4>
                 </div>
             </div>
-            <div >
-                <a href="https://khklee.github.io/taskmaster-pro/" target="_blank" rel="noopener noreferrer">
-                    <img src={task} alt="screentshot of Taskmaster"/>
-                </a>
-                <div >
-                    <h3>Taskmaster</h3>
+            <div className='project'>
+                <img className='proj-img' src={task} alt="screentshot of Taskmaster"/>
+                <div className='centered'>
+                    <h3>Taskmaster
+                        <a href="https://github.com/khklee/taskmaster-pro" target="_blank" rel="noopener noreferrer">
+                            &nbsp;<img className='git-img' src={githubImg} alt='github'/>
+                        </a>    
+                    </h3>
                     <h4>HTML/CSS/JavaScript</h4>
                 </div>
             </div>
-            <div >
-                <a href=" https://khklee.github.io/Password-Generator/" target="_blank" rel="noopener noreferrer">
-                    <img src={password} alt="screentshot of Password-Generator"/>
-                </a>
-                <div >
-                    <h3>Password-Generator</h3>
+            <div className='project'>
+                <img className='proj-img' src={password} alt="screentshot of Password-Generator"/>
+                <div className='centered'>
+                    <h3>Password-Generator
+                        <a href="https://github.com/khklee/Password-Generator" target="_blank" rel="noopener noreferrer">
+                            &nbsp;<img className='git-img' src={githubImg} alt='github'/>
+                        </a>
+                    </h3>
                     <h4>HTML/CSS/JavaScript</h4>
                 </div>
             </div>
