@@ -166,6 +166,10 @@ textarea {
   margin-right: auto;
 }
 
+.proficiencies {
+  margin-left: 25vw;
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
@@ -268,3 +272,148 @@ textarea {
 .footer-img {
   height: 6vh
 }
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (min-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  nav {
+    margin: 10px 0 10px 0;
+  }
+
+  .flex-row {
+    margin: 0;
+    padding: 0;
+  }
+
+  .mx-2 {
+    font-size: 1rem;
+  }
+
+  .sec-title {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .proj-img {
+    max-width: 100%;  
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  input {
+    width: 300px;
+  }
+
+  textarea {
+    width: 300px;
+  }  
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (min-width: 768px) {
+  nav {
+    margin-left: 20vw;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+
+  .proj-img {
+    max-width: 100%;  
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  input {
+    width: 400px;
+  }
+
+  textarea {
+    width: 400px;
+  }  
+}
+
+/* MEDIA QUERY FOR SMALL LAPTOPS AND SMALLER */
+@media screen and (min-width: 1024px) {
+  nav {
+    margin-left: 15vw;
+  }
+
+  .mx-2 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  .proj-img {
+    max-width: 100%;  
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  input {
+    width: 500px;
+  }
+
+  textarea {
+    width: 500px;
+  } 
+}
+
+/* MEDIA QUERY FOR LARGE DESKTOPS AND SMALLER */
+@media screen and (min-width: 1200px) {
+  nav {
+    margin-left: 25vw;
+  }
+
+  .mx-2 {
+    font-size: 1.3rem;
+  }
+
+  .proj-img {
+    max-width: 100%;  
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  input {
+    width: 600px;
+  }
+
+  textarea {
+    width: 600px;
+  } 
+};

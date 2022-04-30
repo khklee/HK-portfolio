@@ -9,7 +9,7 @@ function Resume() {
                 &nbsp;resume
                 </a>
             </p>
-            <div>
+            <div className='proficiencies'>
                 <h3>Front-end Proficiencies</h3>
                 <ul>
                     <li>HTML</li>
@@ -20,7 +20,7 @@ function Resume() {
                     <li>Bootstrap</li>
                 </ul>
             </div>
-            <div>
+            <div className='proficiencies'>
                 <h3>Back-end Proficiencies</h3>
                 <ul>
                     <li>Node.js</li>
