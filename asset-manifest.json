@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.da6cfe0d.css",
+    "main.js": "/portfolio/static/js/main.e9414a5f.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/background3.png": "/portfolio/static/media/background3.e3d4a394cb9350def3f5.png",
+    "static/media/tech-journal.png": "/portfolio/static/media/tech-journal.50eba35b4a1661d4d421.png",
+    "static/media/Crypto-Checker.png": "/portfolio/static/media/Crypto-Checker.e2d76d6d20ed14e5d138.png",
+    "static/media/candy inventory.png": "/portfolio/static/media/candy inventory.f55bf12ac9c66d6b8fbd.png",
+    "static/media/weather dashboard.png": "/portfolio/static/media/weather dashboard.cc7db31d32dae0deb514.png",
+    "static/media/Avatar.png": "/portfolio/static/media/Avatar.dda53b83e4f12069f675.png",
+    "static/media/Taskmaster Pro.png": "/portfolio/static/media/Taskmaster Pro.97f5d00296507e58532f.png",
+    "static/media/Stack-overflow.png": "/portfolio/static/media/Stack-overflow.8e4cda3f4c26e1005d3f.png",
+    "static/media/password generator.png": "/portfolio/static/media/password generator.71830439fe3bab9f25b0.png",
+    "index.html": "/portfolio/index.html",
+    "main.da6cfe0d.css.map": "/portfolio/static/css/main.da6cfe0d.css.map",
+    "main.e9414a5f.js.map": "/portfolio/static/js/main.e9414a5f.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da6cfe0d.css",
+    "static/js/main.e9414a5f.js"
+  ]
+}
