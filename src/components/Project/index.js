@@ -1,4 +1,5 @@
 import React from 'react';
+import blockbuster from '../../assets/images/projects/Blockbuster Video.png'
 import candy from '../../assets/images/projects/candy inventory.png';
 import crypto from '../../assets/images/projects/Crypto-Checker.png';
 import tech from '../../assets/images/projects/tech-journal.png';
@@ -12,6 +13,19 @@ function Project() {
     return (
         <div className='container'>
             <h2 className='sec-title' id='projects'>Portfolio</h2>
+            <div className='project'>
+                <img className='proj-img' src={blockbuster} alt="screenshot of blockbuster video"/>
+                <div className='centered'>
+                    <a href="https://tranquil-caverns-31701.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                        <h3>Blockbuster Video                 
+                            <a href="https://github.com/JohnKnee3/Blockbuster-Video" target="_blank" rel="noopener noreferrer">
+                                &nbsp;<img className='git-img' src={githubImg} alt='github'/>
+                            </a>
+                        </h3>
+                    </a>
+                    <h4>React/JavaScript/CSS<br/>Express.js/Node.js/<br/>MongoDB/GraphQl</h4>
+                </div>
+            </div>
             <div className='project'>
                 <img className='proj-img' src={tech} alt="screenshot of tech-journal"/>
                 <div className='centered'>
