@@ -13,7 +13,7 @@
         <li><a href="#questions">Questions</a></li>
     </ul>
 <h2 id="usage">## Usage</h2>
-    <p>Please visit at https://khklee.github.io/HK-portfolio/.</p>
+    <p>Please visit at https://khk-portfolio.herokuapp.com/.</p>
 <h2 id="screenshot">## Screenshot</h2>
     <img src='./src/assets/images/screenshots/about-me.png' alt='about-me'/>
     <img src='./src/assets/images/screenshots/contact.png' alt='contact'/>
