@@ -28,6 +28,7 @@ function Resume() {
                     <li>APIs</li>
                     <li>MySQL - Sequelize</li>
                     <li>NoSQL - MongoDB</li>
+                    <li>GraphQl</li>
                     <li>REST</li>
                 </ul>
             </div>
