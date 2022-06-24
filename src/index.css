@@ -162,12 +162,19 @@ textarea {
 .container {
   width: 60%;
   max-width: 1200px;
-  margin-left: 2vw;
+  margin-left: 10vw;
   margin-right: auto;
 }
 
-.proficiencies {
-  margin-left: 25vw;
+.about-container {
+  width: 40%;
+  max-width: 1200px;
+  margin-left: 10vw;
+  margin-right: auto;
+}
+
+.resume-container {
+  margin-top: 10vh;
 }
 
 .flex-row {
@@ -228,6 +235,11 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
+.nav-title {
+  font-size: 13rem;
+  color: var(--secondary);
+}
+
 .navActive {
   color: var(--secondary);
 }
@@ -262,6 +274,12 @@ textarea {
   margin-top: 32vh;
 }
 
+.links-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .contact {
   display: flex;
   flex-wrap: wrap;
@@ -269,8 +287,16 @@ textarea {
   padding-right: 5vw;
 }
 
+.email {
+  color: #fafafa;
+}
+
 .footer-img {
   height: 6vh
+}
+
+.footer-img-stack {
+  height: 8vh;
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */

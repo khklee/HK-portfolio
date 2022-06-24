@@ -12,7 +12,7 @@ import githubImg from '../../assets/images/Github.png';
 function Project() {
     return (
         <div className='container'>
-            <h2 className='sec-title' id='projects'>Portfolio</h2>
+            <h2 className='nav-title' id='projects'>Portfolio</h2>
             <div className='project'>
                 <img className='proj-img' src={blockbuster} alt="screenshot of blockbuster video"/>
                 <div className='centered'>

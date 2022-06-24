@@ -2,13 +2,8 @@ import React from 'react';
 
 function Resume() {
     return(
-        <section className='container'>
-            <h2 className='sec-title' id='resume'>Resume</h2>
-            <p>Download 
-                <a href='https://docs.google.com/document/d/1PxSVc311p9ro0iSvJysD6-Z5Xyz7L36gEgw9-Ind3vg/edit?usp=sharing'  target="_blank" rel="noreferrer">
-                &nbsp;resume
-                </a>
-            </p>
+        <div className='resume-container'>
+            <h2 className='sec-title'>Skills</h2>
             <div className='proficiencies'>
                 <h3>Front-end Proficiencies</h3>
                 <ul>
@@ -32,7 +27,12 @@ function Resume() {
                     <li>REST</li>
                 </ul>
             </div>
-        </section>
+            <p>My 
+                <a href='https://docs.google.com/document/d/1PxSVc311p9ro0iSvJysD6-Z5Xyz7L36gEgw9-Ind3vg/edit?usp=sharing'  target="_blank" rel="noreferrer">
+                &nbsp;resume
+                </a>
+            </p>
+        </div>
     ) 
 }
 
