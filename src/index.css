@@ -90,7 +90,7 @@ button {
   outline: none;
   cursor: pointer;
   background: var(--secondary);
-	color: var(--primary);
+	color: var(--light);
 	font-weight: 600;
 	margin-bottom: 30px;
 	padding: 10px 15px;	
@@ -98,6 +98,10 @@ button {
 
 button:hover {
   opacity: .8;
+}
+
+button a {
+  color:var(--primary)
 }
 
 button[disabled] {
@@ -132,12 +136,12 @@ li {
   list-style: none;
 }
 
-nav {
+/* nav {
   margin-left: 28vw;
-}
+} */
 
 nav a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 nav  li {
@@ -173,7 +177,7 @@ textarea {
   margin-right: auto;
 }
 
-.resume-container {
+.skill-container {
   margin-top: 10vh;
 }
 
@@ -241,7 +245,8 @@ textarea {
 }
 
 .navActive {
-  color: var(--secondary);
+  /* color: var(--secondary); */
+  display: none;
 }
 
 .project {
@@ -264,6 +269,10 @@ textarea {
 
 .git-img {
   height: 30px;
+}
+
+.highlighted {
+  font-size: 3rem;
 }
 
 .footer-container {
@@ -349,9 +358,9 @@ textarea {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (min-width: 768px) {
-  nav {
+  /* nav {
     margin-left: 20vw;
-  }
+  } */
   
   p {
     font-size: 1.2rem;
@@ -380,9 +389,9 @@ textarea {
 
 /* MEDIA QUERY FOR SMALL LAPTOPS AND SMALLER */
 @media screen and (min-width: 1024px) {
-  nav {
+  /* nav {
     margin-left: 15vw;
-  }
+  } */
 
   .mx-2 {
     font-size: 1.3rem;
@@ -415,9 +424,9 @@ textarea {
 
 /* MEDIA QUERY FOR LARGE DESKTOPS AND SMALLER */
 @media screen and (min-width: 1200px) {
-  nav {
+  /* nav {
     margin-left: 25vw;
-  }
+  } */
 
   .mx-2 {
     font-size: 1.3rem;

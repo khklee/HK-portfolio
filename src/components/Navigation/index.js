@@ -1,14 +1,20 @@
 import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
-
     return (
         <ul className='flex-row'>
             <li className='mx-1'>
                 <a 
+                    href='/'
+                    className={`title ${currentPage === 'Main' && 'navActive'}`}>
+                    Home
+                </a>
+            </li>
+            <li className='mx-1'>
+                <a 
                     href='#about'
                     onClick={() => handlePageChange('About')}
-                    className={`mx-2 ${currentPage === 'About' && 'navActive'}`}>
+                    className={`title ${currentPage === 'About' && 'navActive'}`}>
                     About Me
                 </a>
             </li>
@@ -16,7 +22,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 <a 
                     href='#projects'
                     onClick={() => handlePageChange('Project')}
-                    className={`mx-2 ${currentPage === 'Project' && 'navActive'}`}>
+                    className={`title ${currentPage === 'Project' && 'navActive'}`}>
                     Portfolio
                 </a>            
             </li>
@@ -30,10 +36,10 @@ function Navigation({ currentPage, handlePageChange }) {
             </li> */}
             {/* <li className='mx-1'>
                 <a 
-                    href='#resume'
-                    onClick={() => handlePageChange('Resume')}
-                    className={`mx-2 ${currentPage === 'Resume' && 'navActive'}`}>
-                    Resume
+                    href='#skill'
+                    onClick={() => handlePageChange('skill')}
+                    className={`mx-2 ${currentPage === 'skill' && 'navActive'}`}>
+                    skill
                 </a>   
             </li> */}
         </ul>

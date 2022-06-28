@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Resume() {
+function Skill() {
     return(
-        <div className='resume-container'>
+        <div className='skill-container'>
             <h2 className='sec-title'>Skills</h2>
             <div className='proficiencies'>
                 <h3>Front-end Proficiencies</h3>
@@ -27,13 +27,15 @@ function Resume() {
                     <li>REST</li>
                 </ul>
             </div>
-            <p>My 
-                <a href='https://docs.google.com/document/d/1PxSVc311p9ro0iSvJysD6-Z5Xyz7L36gEgw9-Ind3vg/edit?usp=sharing'  target="_blank" rel="noreferrer">
-                &nbsp;resume
-                </a>
+            <p>
+                <button>
+                    <a href='https://docs.google.com/document/d/1PxSVc311p9ro0iSvJysD6-Z5Xyz7L36gEgw9-Ind3vg/edit?usp=sharing'  target="_blank" rel="noreferrer">
+                    &nbsp;Resume
+                    </a>
+                </button>
             </p>
         </div>
     ) 
 }
 
-export default Resume;
+export default Skill;

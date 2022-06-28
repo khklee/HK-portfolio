@@ -27,6 +27,10 @@ function Main({ currentPage, setCurrentPage }) {
                     </a>            
                 </li>
             </ul>
+            <div className='container'>
+                <h3>Kelly Hyunkyoung Lee</h3>
+                <p>Software Developer - MERN Stack</p>
+            </div>
         </section>
     );
 }

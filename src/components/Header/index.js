@@ -3,7 +3,7 @@ import Navigation from '../Navigation';
 import About from '../About';
 import Project from '../Project';
 import Main from '../Main';
-// import Resume from '../Resume';
+// import skill from '../skill';
 // import Contact from '../Contact';
 
 
@@ -21,19 +21,41 @@ function Header() {
         return <Main currentPage={currentPage} setCurrentPage={setCurrentPage}></Main>
       }
     }
+
+    const renderNav = () => {
+      if (currentPage === 'Main') {
+        return (
+          <nav>
+            <ul className='flex-row'>
+              <li className='mx-1'>
+                  <a 
+                      href='/'
+                      // onClick={() => handlePageChange('About')}
+                      className={`title ${currentPage === 'Main' && 'navActive'}`}>
+                      Home
+                  </a>
+              </li>
+            </ul>
+          </nav>
+        )
+      } else {
+        return (
+          <nav>
+              <Navigation currentPage={currentPage} handlePageChange={handlePageChange}></Navigation>
+          </nav>
+        )
+      }
+    }
   
     const handlePageChange = (page) => setCurrentPage(page);
     
     return (
         <div >
           <header className='flex-row px-1'>
-            <h2 className='title'><a href='/'>Home</a></h2>
-            {/* <nav>
-                <Navigation currentPage={currentPage} handlePageChange={handlePageChange}></Navigation>
-            </nav> */}
+            {renderNav()}
           </header>
           <main>
-              {renderPage()}
+            {renderPage()}
           </main>
         </div>
     );

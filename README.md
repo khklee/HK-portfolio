@@ -18,7 +18,7 @@
     <img src='./src/assets/images/screenshots/about-me.png' alt='about-me'/>
     <img src='./src/assets/images/screenshots/contact.png' alt='contact'/>
     <img src='./src/assets/images/screenshots/portfolio.png' alt='portfolio'/>
-    <img src='./src/assets/images/screenshots/resume.png' alt='resume'/>
+    <img src='./src/assets/images/screenshots/skill.png' alt='skill'/>
 <h2 id="license">## License</h2>
     <p>
       This application is covered under MIT and please <a href="https://choosealicense.com/licenses/">click here</a> to find out more details.
