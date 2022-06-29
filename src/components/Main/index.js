@@ -14,15 +14,15 @@ function Main({ currentPage, setCurrentPage }) {
                     <a 
                         href='#about'
                         onClick={() => handlePageChange('About')}
-                        className={`nav-title ${currentPage === 'About' && 'navActive'}`}>
+                        className={`title ${currentPage === 'About' && 'navActive'}`}>
                         About
                     </a>
                 </li>
                 <li className='mx-1'>
                     <a 
-                        href='#projects'
-                        onClick={() => handlePageChange('Project')}
-                        className={`nav-title ${currentPage === 'Project' && 'navActive'}`}>
+                        href='#portfolio'
+                        onClick={() => handlePageChange('Portfolio')}
+                        className={`title ${currentPage === 'Portfolio' && 'navActive'}`}>
                         Portfolio
                     </a>            
                 </li>

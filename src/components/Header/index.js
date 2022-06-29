@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navigation from '../Navigation';
 import About from '../About';
-import Project from '../Project';
+import Portfolio from '../Portfolio';
 import Main from '../Main';
 // import skill from '../skill';
 // import Contact from '../Contact';
@@ -12,8 +12,8 @@ function Header() {
 
     // check what the value of `currentPage` is and return the corresponding component to render. 
     const renderPage = () => {
-      if (currentPage === 'Project') {
-        return <Project></Project>
+      if (currentPage === 'Portfolio') {
+        return <Portfolio></Portfolio>
       }
       if (currentPage === 'About') {
         return <About></About>

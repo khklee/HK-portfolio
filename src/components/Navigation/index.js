@@ -6,7 +6,7 @@ function Navigation({ currentPage, handlePageChange }) {
             <li className='mx-1'>
                 <a 
                     href='/'
-                    className={`title ${currentPage === 'Main' && 'navActive'}`}>
+                    className={`nav-title ${currentPage === 'Main' && 'navActive'}`}>
                     Home
                 </a>
             </li>
@@ -14,15 +14,15 @@ function Navigation({ currentPage, handlePageChange }) {
                 <a 
                     href='#about'
                     onClick={() => handlePageChange('About')}
-                    className={`title ${currentPage === 'About' && 'navActive'}`}>
-                    About Me
+                    className={`nav-title ${currentPage === 'About' && 'navActive'}`}>
+                    About
                 </a>
             </li>
             <li className='mx-1'>
                 <a 
-                    href='#projects'
-                    onClick={() => handlePageChange('Project')}
-                    className={`title ${currentPage === 'Project' && 'navActive'}`}>
+                    href='#portfolio'
+                    onClick={() => handlePageChange('Portfolio')}
+                    className={`nav-title ${currentPage === 'Portfolio' && 'navActive'}`}>
                     Portfolio
                 </a>            
             </li>

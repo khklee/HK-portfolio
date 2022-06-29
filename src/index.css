@@ -6,7 +6,7 @@
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-
+  --bs-body-bg: url(/src/assets/images/background3.png) no-repeat center center fixed;
 }
 
 * {
@@ -53,7 +53,7 @@ h3 {
   font-size: 1.75rem;
 }
 
-p {
+.about-text {
   font-size: 1.5rem;
   margin-top: 0;
   border-radius: 5px;
@@ -64,12 +64,13 @@ p {
 }
 
 a {
-  color: var(--secondary);
   text-decoration: none;
   font-weight: bold;
-}
+  color: var(--primary);
+} 
 
 a:hover {
+  color: var(--secondary);
   text-decoration: underline;
 }
 
@@ -82,7 +83,7 @@ header a {
   color: var(--light);
 }
 
-button {
+/* .modal-close {
   font-size: 1rem;
   text-decoration: none;
   border-radius: .5rem;
@@ -90,15 +91,17 @@ button {
   outline: none;
   cursor: pointer;
   background: var(--secondary);
-	color: var(--light);
+	color: var(--primary);
 	font-weight: 600;
 	margin-bottom: 30px;
 	padding: 10px 15px;	
 }
 
-button:hover {
-  opacity: .8;
-}
+.modal-close:hover {
+  cursor: pointer;
+  background: var(--secondary);
+	color: var(--primary);
+} */
 
 button a {
   color:var(--primary)
@@ -107,6 +110,40 @@ button a {
 button[disabled] {
   cursor: default;
   opacity: .8;
+}
+
+.modal-title {
+  color: var(--primary);
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.modal-text {
+  color: var(--primary);
+  margin-top: 2rem;
+}
+
+.modal-btn {
+  font-size: 5rem;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+	color: var(--light);
+}
+
+.modal-btn:hover {
+  cursor: pointer;
+  background: transparent;
+}
+
+.modal-btn:focus {
+  text-decoration: none;
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
 }
 
 span[role="img"] {
@@ -155,7 +192,7 @@ textarea {
 	padding: 5px;
 }
 
-.title {
+.nav-title {
   margin-left: 2vw;
 }
 
@@ -239,7 +276,7 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-.nav-title {
+.title {
   font-size: 13rem;
   color: var(--secondary);
 }
@@ -263,17 +300,24 @@ textarea {
 }
 
 .proj-img {
-  max-width: 50%;
-  opacity: 0.25;
+  height: 40vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .git-img {
-  height: 30px;
+  height: 5vh;
+  margin-bottom: 1vh;
 }
 
 .highlighted {
   font-size: 3rem;
 }
+
+/* .project-list {
+  font-size: 5rem;
+} */
 
 .footer-container {
   display: flex;
@@ -310,7 +354,7 @@ textarea {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (min-width: 480px) {
-  .title {
+  .nav-title {
     font-size: 1.5rem;
   }
 

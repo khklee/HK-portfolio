@@ -27,13 +27,13 @@ function Skill() {
                     <li>REST</li>
                 </ul>
             </div>
-            <p>
-                <button>
-                    <a href='https://docs.google.com/document/d/1PxSVc311p9ro0iSvJysD6-Z5Xyz7L36gEgw9-Ind3vg/edit?usp=sharing'  target="_blank" rel="noreferrer">
-                    &nbsp;Resume
-                    </a>
-                </button>
-            </p>
+    
+            <button>
+                <a href='https://docs.google.com/document/d/1PxSVc311p9ro0iSvJysD6-Z5Xyz7L36gEgw9-Ind3vg/edit?usp=sharing'  target="_blank" rel="noreferrer">
+                &nbsp;Resume
+                </a>
+            </button>
+       
         </div>
     ) 
 }
