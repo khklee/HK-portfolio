@@ -9,12 +9,12 @@ function Main({ currentPage, setCurrentPage }) {
 
     return (
         <section>
-            <ul className=''>
+            <ul>
                 <li className='mx-1'>
                     <a 
                         href='#about'
                         onClick={() => handlePageChange('About')}
-                        className={`title ${currentPage === 'About' && 'navActive'}`}>
+                        className={`main-title ${currentPage === 'About' && 'navActive'}`}>
                         About
                     </a>
                 </li>
@@ -22,7 +22,7 @@ function Main({ currentPage, setCurrentPage }) {
                     <a 
                         href='#portfolio'
                         onClick={() => handlePageChange('Portfolio')}
-                        className={`title ${currentPage === 'Portfolio' && 'navActive'}`}>
+                        className={`main-title ${currentPage === 'Portfolio' && 'navActive'}`}>
                         Portfolio
                     </a>            
                 </li>

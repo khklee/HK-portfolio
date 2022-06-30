@@ -2,7 +2,6 @@ import React from 'react';
 import githubImg from '../../assets/images/Github.png';
 import linkedinImg from '../../assets/images/Linkedin.png';
 import stackImg from '../../assets/images/Stack-overflow.png';
-import Contact from '../Contact';
 
 function Footer() {
     return(

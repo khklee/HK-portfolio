@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../../assets/KHL Resume 2.0.pdf';
 
 function Skill() {
     return(
@@ -27,13 +28,11 @@ function Skill() {
                     <li>REST</li>
                 </ul>
             </div>
-    
-            <button>
-                <a href='https://docs.google.com/document/d/1PxSVc311p9ro0iSvJysD6-Z5Xyz7L36gEgw9-Ind3vg/edit?usp=sharing'  target="_blank" rel="noreferrer">
-                &nbsp;Resume
-                </a>
-            </button>
-       
+            <a href={resume} Download Target="blank">
+                <button className='resume-btn'>
+                    Resume
+                </button>
+            </a>
         </div>
     ) 
 }

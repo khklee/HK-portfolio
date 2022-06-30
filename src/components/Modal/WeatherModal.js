@@ -2,7 +2,6 @@ import React from 'react';
 import { Modal } from 'react-bootstrap';
     
 import weather from '../../assets/images/projects/weather dashboard.png';
-import githubImg from '../../assets/images/Github-modal.png';
 
 function WeatherModal(props) {
     return (    
@@ -15,15 +14,10 @@ function WeatherModal(props) {
             <Modal.Header closeButton>
                 <Modal.Title className='modal-title' id="contained-modal-title-vcenter">
                     Weather Dashboard    
-                    <a href="https://github.com/khklee/Weather-Dashboard" target="_blank" rel="noopener noreferrer">
-                      &nbsp;<img className='git-img' src={githubImg} alt='github'/>
-                    </a>
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <a href="https://khklee.github.io/Weather-Dashboard/" target="_blank" rel="noopener noreferrer">
-                    <img className='proj-img' src={weather} alt="screentshot of Weather-Dashboard"/>
-                </a>
+                <img className='proj-img' src={weather} alt="screentshot of Weather-Dashboard"/>
                 <p className='modal-text'>
                     Wether Dashboard allows a user to search for a city and presents with current and future conditions for the city.
                 </p>
@@ -37,6 +31,18 @@ function WeatherModal(props) {
                     When a user clicks a city in the search history, it presents with current and future conditions for that city again.
                 </p>
             </Modal.Body>
+            <Modal.Footer className='modal-footer'>
+                <a href="https://khklee.github.io/Weather-Dashboard/" target="_blank" rel="noopener noreferrer">
+                    <button className='github-btn'>
+                        Website
+                    </button>
+                </a>
+                <a href="https://github.com/khklee/Weather-Dashboard" target="_blank" rel="noopener noreferrer">
+                    <button className='github-btn'>
+                        Github Repo
+                    </button>               
+                </a>
+            </Modal.Footer>
         </Modal>
     )
 };

@@ -3,9 +3,6 @@ import Navigation from '../Navigation';
 import About from '../About';
 import Portfolio from '../Portfolio';
 import Main from '../Main';
-// import skill from '../skill';
-// import Contact from '../Contact';
-
 
 function Header() {
     const [currentPage, setCurrentPage] = useState('Main');

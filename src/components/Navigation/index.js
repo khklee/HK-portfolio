@@ -4,7 +4,7 @@ function Navigation({ currentPage, handlePageChange }) {
     return (
         <ul className='flex-row'>
             <li className='mx-1'>
-                <a 
+                <a
                     href='/'
                     className={`nav-title ${currentPage === 'Main' && 'navActive'}`}>
                     Home

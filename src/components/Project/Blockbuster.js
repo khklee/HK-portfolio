@@ -19,16 +19,6 @@ function Blockbuster() {
                     onHide={() => setModalShow(false)}
                 />
             </div>           
-            // <div className='project'>
-            //     <Button className='modal-btn' onClick={() => setModalShow(true)}>
-            //         Password-Generator
-            //     </Button>
-
-            //     <BlockbusterModal
-            //         show={modalShow}
-            //         onHide={() => setModalShow(false)}
-            //     />
-            // </div> 
     )
 }
 
