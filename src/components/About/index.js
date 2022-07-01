@@ -1,13 +1,11 @@
 import React from 'react';
 import Skill from '../Skill';
-// import avatarImg from '../../assets/images/Avatar.png';
 
 function About() {
     return (
-        <section className='my-5 about-container'>
-            <h1 className='title' id='about'>About</h1>
+        <section className='container' id='about-page'>
+            <h1 className='title lineUp'>About</h1>
             <h2 className='sec-title'>Kelly Hyunkyoung Lee</h2>
-            {/* <img src={avatarImg} className='my-2' alt='avatar'/> */}
             <p className='about-text'>
                 I am an allround web developer with good knowledge of front-end and back-end techniques.
                 I love structure and order and I also stand for quality. 

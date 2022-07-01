@@ -10,7 +10,7 @@ function Main({ currentPage, setCurrentPage }) {
     return (
         <section>
             <ul>
-                <li className='mx-1'>
+                <li>
                     <a 
                         href='#about'
                         onClick={() => handlePageChange('About')}
@@ -18,7 +18,7 @@ function Main({ currentPage, setCurrentPage }) {
                         About
                     </a>
                 </li>
-                <li className='mx-1'>
+                <li>
                     <a 
                         href='#portfolio'
                         onClick={() => handlePageChange('Portfolio')}

@@ -20,26 +20,9 @@ function Header() {
     }
 
     const renderNav = () => {
-      if (currentPage === 'Main') {
+      if (currentPage === 'About' || currentPage === 'Portfolio') {
         return (
-          <nav>
-            <ul className='flex-row'>
-              <li className='mx-1'>
-                  <a 
-                      href='/'
-                      // onClick={() => handlePageChange('About')}
-                      className={`title ${currentPage === 'Main' && 'navActive'}`}>
-                      Home
-                  </a>
-              </li>
-            </ul>
-          </nav>
-        )
-      } else {
-        return (
-          <nav>
-              <Navigation currentPage={currentPage} handlePageChange={handlePageChange}></Navigation>
-          </nav>
+          <Navigation currentPage={currentPage} handlePageChange={handlePageChange}></Navigation>
         )
       }
     }
@@ -47,14 +30,10 @@ function Header() {
     const handlePageChange = (page) => setCurrentPage(page);
     
     return (
-        <div >
-          <header className='flex-row px-1'>
-            {renderNav()}
-          </header>
-          <main>
-            {renderPage()}
-          </main>
-        </div>
+      <main>
+        {renderNav()}
+        {renderPage()}
+      </main>
     );
 }
 
