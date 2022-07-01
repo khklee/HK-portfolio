@@ -35,12 +35,12 @@ function BlockbusterModal() {
               </main>
               <footer className='modal-footer'>
                 <a href="https://tranquil-caverns-31701.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                    <button className='github-btn'>
+                    <button className='link-btn-modal'>
                          Website
                     </button>
                 </a>
                 <a href="https://github.com/JohnKnee3/Blockbuster-Video" target="_blank" rel="noopener noreferrer">
-                     <button className='github-btn'>
+                     <button className='link-btn-modal'>
                          Github Repo
                     </button>               
                 </a>
@@ -48,7 +48,7 @@ function BlockbusterModal() {
             </div>
           </>
         )}
-        <button className="modal-btn" onClick={openModal}>Blockbuster Video</button>
+        <button className="modal-btn hvr-skew-forward" onClick={openModal}>Blockbuster Video</button>
       </div>
     );
 };

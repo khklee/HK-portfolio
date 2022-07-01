@@ -33,12 +33,12 @@ function TaskModal(props) {
               </main>
               <footer className='modal-footer'>
                 <a href="https://khklee.github.io/taskmaster-pro/" target="_blank" rel="noopener noreferrer">
-                    <button className='github-btn'>
+                    <button className='link-btn-modal'>
                         Website
                     </button>
                 </a>
                 <a href="https://github.com/khklee/taskmaster-pro" target="_blank" rel="noopener noreferrer">
-                    <button className='github-btn'>
+                    <button className='link-btn-modal'>
                         Github Repo
                     </button>               
                 </a>
@@ -46,7 +46,7 @@ function TaskModal(props) {
             </div>
           </>
         )}
-        <button className="modal-btn" onClick={openModal}>Taskmaster</button>
+        <button className="modal-btn hvr-skew-forward" onClick={openModal}>Taskmaster</button>
       </div>
     );
 };

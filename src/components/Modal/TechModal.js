@@ -33,13 +33,13 @@ function TechModal(props) {
               </main>
               <footer className='modal-footer'>
                 <a href="https://secure-forest-02686.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                    <button className='github-btn'>
+                    <button className='link-btn-modal'>
 
                         Website
                     </button>
                 </a>
                 <a href="https://github.com/khklee/Tech-Journal" target="_blank" rel="noopener noreferrer">
-                    <button className='github-btn'>
+                    <button className='link-btn-modal'>
                         Github Repo
                     </button>               
                 </a>
@@ -47,7 +47,7 @@ function TechModal(props) {
             </div>
           </>
         )}
-        <button className="modal-btn" onClick={openModal}>Tech Journal</button>
+        <button className="modal-btn hvr-skew-forward" onClick={openModal}>Tech Journal</button>
       </div>
     );
 };

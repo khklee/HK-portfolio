@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
-        <nav className='sticky'>
+        <nav className='sidenav'>
             <ul className='flex-row'>
                 <li>
                     <a

@@ -33,12 +33,12 @@ function CandyModal() {
               </main>
               <footer className='modal-footer'>
                 <a href="https://candy-shop-e-commerce.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                    <button className='github-btn'>
+                    <button className='link-btn-modal'>
                     Website
                     </button>
                 </a>
                 <a href="https://github.com/CMahoney12/Candy-Shop-Inventory" target="_blank" rel="noopener noreferrer">
-                    <button className='github-btn'>
+                    <button className='link-btn-modal'>
                     Github Repo
                     </button>               
                 </a>
@@ -46,7 +46,7 @@ function CandyModal() {
             </div>
           </>
         )}
-        <button className="modal-btn" onClick={openModal}>Candy Inventory</button>
+        <button className="modal-btn hvr-skew-forward" onClick={openModal}>Candy Inventory</button>
       </div>
     );
 };

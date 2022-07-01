@@ -34,12 +34,12 @@ function WeatherModal(props) {
               </main>
               <footer className='modal-footer'>
                 <a href="https://khklee.github.io/Weather-Dashboard/" target="_blank" rel="noopener noreferrer">
-                    <button className='github-btn'>
+                    <button className='link-btn-modal'>
                         Website
                     </button>
                 </a>
                 <a href="https://github.com/khklee/Weather-Dashboard" target="_blank" rel="noopener noreferrer">
-                    <button className='github-btn'>
+                    <button className='link-btn-modal'>
                         Github Repo
                     </button>               
                 </a>
@@ -47,7 +47,7 @@ function WeatherModal(props) {
             </div>
           </>
         )}
-        <button className="modal-btn" onClick={openModal}>Weather Dashboard</button>
+        <button className="modal-btn hvr-skew-forward" onClick={openModal}>Weather Dashboard</button>
       </div>
     );
 };

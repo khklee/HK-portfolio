@@ -29,7 +29,7 @@ function Skill() {
                 </ul>
             </div>
             <a href={resume} Download Target="blank">
-                <button className='resume-btn'>
+                <button className='link-btn'>
                     Resume
                 </button>
             </a>

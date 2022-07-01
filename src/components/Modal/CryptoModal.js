@@ -33,12 +33,12 @@ function CryptoModal(props) {
               </main>
               <footer className='modal-footer'>
                 <a href="https://bullmoosedev.github.io/Crypto-Checker/" target="_blank" rel="noopener noreferrer">
-                    <button className='github-btn'>
+                    <button className='link-btn-modal'>
                         Website
                     </button>
                 </a>
                     <a href="https://github.com/BullMooseDev/Crypto-Checker" target="_blank" rel="noopener noreferrer">
-                    <button className='github-btn'>
+                    <button className='link-btn-modal'>
                         Github Repo
                     </button>               
                 </a>
@@ -46,7 +46,7 @@ function CryptoModal(props) {
             </div>
           </>
         )}
-        <button className="modal-btn" onClick={openModal}>Crypto Checker</button>
+        <button className="modal-btn hvr-skew-forward" onClick={openModal}>Crypto Checker</button>
       </div>
     );
 };
