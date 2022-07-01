@@ -15,10 +15,10 @@
 <h2 id="usage">## Usage</h2>
     <p>Please visit at https://khk-portfolio.herokuapp.com/.</p>
 <h2 id="screenshot">## Screenshot</h2>
-    <img src='./src/assets/images/screenshots/about-me.png' alt='about-me'/>
-    <img src='./src/assets/images/screenshots/contact.png' alt='contact'/>
+    <img src='./src/assets/images/screenshots/main.png' alt='main'/>
+    <img src='./src/assets/images/screenshots/about.png' alt='about'/>
     <img src='./src/assets/images/screenshots/portfolio.png' alt='portfolio'/>
-    <img src='./src/assets/images/screenshots/skill.png' alt='skill'/>
+    <img src='./src/assets/images/screenshots/project.png' alt='project'/>
 <h2 id="license">## License</h2>
     <p>
       This application is covered under MIT and please <a href="https://choosealicense.com/licenses/">click here</a> to find out more details.

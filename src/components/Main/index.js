@@ -8,7 +8,7 @@ function Main({ currentPage, setCurrentPage }) {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <section>
+        <section className='container'>
             <ul>
                 <li>
                     <a 
