@@ -433,7 +433,7 @@ transform: scaleX(1);
   }
 
   /* about and porfolio page */
-  .container {
+  /* .container {
     margin-left: 20vw;
   }
 
@@ -441,10 +441,10 @@ transform: scaleX(1);
     font-size: 4rem;
     margin-top: 1rem;
     text-align: center;
-  }
+  } */
 
   /* modal */
-  .modal-header {
+  /* .modal-header {
     display: block;
   }
 
@@ -455,7 +455,7 @@ transform: scaleX(1);
   .modal-btn {
     font-size: 3rem;
   }
-
+  */
 
 
   .sec-title {
