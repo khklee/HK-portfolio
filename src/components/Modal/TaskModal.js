@@ -18,8 +18,26 @@ function TaskModal(props) {
             <div className="overlay"></div>
             <div className="modal">
               <header className="modal-header">
-                <h2 className='modal-title'>Taskmaster</h2>
-                <button onClick={closeModal} className="close-button">&times;</button>
+                <div>
+                  <h2 className='modal-title'>Taskmaster</h2>
+                </div>
+                <div className='push'>
+                  <a href="https://khklee.github.io/taskmaster-pro/" target="_blank" rel="noopener noreferrer">
+                      <button className='link-btn-modal'>
+                          Website
+                      </button>
+                  </a>
+                </div>
+                <div className='space'>
+                  <a href="https://github.com/khklee/taskmaster-pro" target="_blank" rel="noopener noreferrer">
+                      <button className='link-btn-modal'>
+                          Github Repo
+                      </button>               
+                  </a>
+                </div>
+                <div>
+                  <button onClick={closeModal} className="close-button">&times;</button>
+                </div>
               </header>
               <main className="modal-main">
                 <img className='proj-img' src={task} alt="screentshot of Taskmaster"/>
@@ -31,18 +49,6 @@ function TaskModal(props) {
                     HTML/CSS/JavaScript          
                 </p>
               </main>
-              <footer className='modal-footer'>
-                <a href="https://khklee.github.io/taskmaster-pro/" target="_blank" rel="noopener noreferrer">
-                    <button className='link-btn-modal'>
-                        Website
-                    </button>
-                </a>
-                <a href="https://github.com/khklee/taskmaster-pro" target="_blank" rel="noopener noreferrer">
-                    <button className='link-btn-modal'>
-                        Github Repo
-                    </button>               
-                </a>
-              </footer>
             </div>
           </>
         )}

@@ -18,8 +18,27 @@ function TechModal(props) {
             <div className="overlay"></div>
             <div className="modal">
               <header className="modal-header">
-                <h2 className='modal-title'>Tech Journal</h2>
-                <button onClick={closeModal} className="close-button">&times;</button>
+                <div>
+                  <h2 className='modal-title'>Tech Journal</h2>
+                </div>
+                <div className='push'>
+                  <a href="https://secure-forest-02686.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                      <button className='link-btn-modal'>
+
+                          Website
+                      </button>
+                  </a>
+                </div>
+                <div className='space'>
+                  <a href="https://github.com/khklee/Tech-Journal" target="_blank" rel="noopener noreferrer">
+                      <button className='link-btn-modal'>
+                          Github Repo
+                      </button>               
+                  </a>
+                </div>
+                <div>
+                  <button onClick={closeModal} className="close-button">&times;</button>
+                </div>
               </header>
               <main className="modal-main">
                 <img className='proj-img' src={tech} alt="screenshot of tech-journal"/>
@@ -31,19 +50,6 @@ function TechModal(props) {
                     HTML/JavaScript/CSS/Handlebars/Node.js/Express.js/MySQL/Sequelize          
                 </p>
               </main>
-              <footer className='modal-footer'>
-                <a href="https://secure-forest-02686.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                    <button className='link-btn-modal'>
-
-                        Website
-                    </button>
-                </a>
-                <a href="https://github.com/khklee/Tech-Journal" target="_blank" rel="noopener noreferrer">
-                    <button className='link-btn-modal'>
-                        Github Repo
-                    </button>               
-                </a>
-              </footer>
             </div>
           </>
         )}

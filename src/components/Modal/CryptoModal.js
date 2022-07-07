@@ -18,8 +18,26 @@ function CryptoModal(props) {
             <div className="overlay"></div>
             <div className="modal">
               <header className="modal-header">
-                <h2 className='modal-title'>Crypto Checker</h2>
-                <button onClick={closeModal} className="close-button">&times;</button>
+                <div>
+                  <h2 className='modal-title'>Crypto Checker</h2>
+                </div>
+                <div className='push'>
+                  <a href="https://bullmoosedev.github.io/Crypto-Checker/" target="_blank" rel="noopener noreferrer">
+                      <button className='link-btn-modal'>
+                          Website
+                      </button>
+                  </a>
+                </div>
+                <div className='space'>
+                  <a href="https://github.com/BullMooseDev/Crypto-Checker" target="_blank" rel="noopener noreferrer">
+                      <button className='link-btn-modal'>
+                          Github Repo
+                      </button>               
+                  </a>
+                </div>
+                <div>
+                  <button onClick={closeModal} className="close-button">&times;</button>
+                </div>
               </header>
               <main className="modal-main">
                 <img className='proj-img' src={crypto} alt="screentshot of Crypto-Checker"/>
@@ -31,18 +49,6 @@ function CryptoModal(props) {
                     HTML/CSS/JavaScript/API          
                 </p>
               </main>
-              <footer className='modal-footer'>
-                <a href="https://bullmoosedev.github.io/Crypto-Checker/" target="_blank" rel="noopener noreferrer">
-                    <button className='link-btn-modal'>
-                        Website
-                    </button>
-                </a>
-                    <a href="https://github.com/BullMooseDev/Crypto-Checker" target="_blank" rel="noopener noreferrer">
-                    <button className='link-btn-modal'>
-                        Github Repo
-                    </button>               
-                </a>
-              </footer>
             </div>
           </>
         )}

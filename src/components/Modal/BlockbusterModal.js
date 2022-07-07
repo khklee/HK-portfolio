@@ -13,14 +13,32 @@ function BlockbusterModal() {
     }
   
     return (
-      <div>
+      <div className='modal-container'>
         {isOpen && (
           <>
             <div className="overlay"></div>
             <div className="modal">
               <header className="modal-header">
-                <h2 className='modal-title'>Blockbuster Video</h2>
-                <button onClick={closeModal} className="close-button">&times;</button>
+                <div>
+                  <h2 className='modal-title'>Blockbuster Video</h2>
+                </div>
+                <div className='push'>
+                  <a href="https://tranquil-caverns-31701.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                      <button className='link-btn-modal'>
+                          Website
+                      </button>
+                  </a>
+                </div>
+                <div className='space'>
+                  <a href="https://github.com/JohnKnee3/Blockbuster-Video" target="_blank" rel="noopener noreferrer">
+                      <button className='link-btn-modal'>
+                          Github Repo
+                      </button>               
+                  </a>
+                </div>
+                <div>
+                  <button onClick={closeModal} className="close-button">&times;</button>
+                </div>
               </header>
               <main className="modal-main">
                 <img className='proj-img' src={blockbuster} alt="screenshot of blockbuster video"/>
@@ -33,18 +51,6 @@ function BlockbusterModal() {
                     Node.js/Express.js/NoSQL/MongoDB/GraphQl/JWT
                 </p>
               </main>
-              <footer className='modal-footer'>
-                <a href="https://tranquil-caverns-31701.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                    <button className='link-btn-modal'>
-                         Website
-                    </button>
-                </a>
-                <a href="https://github.com/JohnKnee3/Blockbuster-Video" target="_blank" rel="noopener noreferrer">
-                     <button className='link-btn-modal'>
-                         Github Repo
-                    </button>               
-                </a>
-              </footer>
             </div>
           </>
         )}

@@ -100,10 +100,10 @@ nav li {
 
 .sidenav {
   background: var(--primary);
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
-  height:100%;
+  height: 100vh;
   left: 0;
   width: 5rem;
 }
@@ -220,9 +220,8 @@ nav li {
 
 .modal-header {
   background: var(--light);
-  padding-left: 1rem;
+  padding: 1rem 0 0 1rem;
   display: flex;
-  justify-content: space-between;
 }
 
 .modal-title {
@@ -243,8 +242,12 @@ nav li {
   margin-top: 2rem;
 }
 
-.modal-footer {
-  padding-left: 1rem;
+.push {
+  margin-left: auto;  
+}
+
+.space {
+  margin: 0 1rem 0 1rem;
 }
 
 .link-btn-modal {
@@ -259,11 +262,10 @@ nav li {
   padding: 10px;
   outline: none;
   border-radius: 4px;
-	margin: 0 1.5rem 2rem 0;
 }
 
 .link-btn-modal:hover {
-  color: var(--light);
+  color: var(--primary);
   font-weight: 600;
   border: 3px solid var(--secondary);
   background-color: var(--secondary);
@@ -274,7 +276,7 @@ nav li {
   background: transparent;
   cursor: pointer;
   color: var(--primary);
-  font-size: 6vh;
+  font-size: 5vh;
 }
 
 .modal-btn {
@@ -420,14 +422,41 @@ transform: scaleX(1);
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (min-width: 480px) {
-  .nav-title {
-    font-size: 1.5rem;
-  }
-
+  /* sidebar */
   .flex-row {
     margin: 0;
     padding: 0;
   }
+
+  .nav-title {
+    font-size: 1.5rem;
+  }
+
+  /* about and porfolio page */
+  .container {
+    margin-left: 20vw;
+  }
+
+  .title {
+    font-size: 4rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  /* modal */
+  .modal-header {
+    display: block;
+  }
+
+  .space {
+    margin: 0;
+  }
+
+  .modal-btn {
+    font-size: 3rem;
+  }
+
+
 
   .sec-title {
     font-size: 1.5rem;
