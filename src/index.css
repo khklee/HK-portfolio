@@ -143,11 +143,11 @@ nav li {
 
 .sec-title {
   color: var(--secondary);
+  margin: 4rem 0 4rem 0;
 }
 
 .about-text {
   font-size: 1.5rem;
-  margin-top: 0;
   border-radius: 5px;
 	color: var(--light);
 	padding: 2px 4px;
@@ -171,7 +171,7 @@ nav li {
   padding: 10px;
   outline: none;
   border-radius: 4px;
-	margin: 0 1.5rem 2rem 0;
+	margin: 3rem 1.5rem 2rem 0;
 }
 
 .link-btn:hover {
