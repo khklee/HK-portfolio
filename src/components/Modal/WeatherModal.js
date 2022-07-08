@@ -47,13 +47,13 @@ function WeatherModal(props) {
                     It also provides history of weather searh results in the past.
                 </p>
                 <p className='modal-text'>
-                    HTML/JavaScript/CSS/API         
+                    HTML JavaScript CSS API         
                 </p>
               </main>
             </div>
           </>
         )}
-        <button className="modal-btn hvr-skew-forward" onClick={openModal}>Weather Dashboard</button>
+        <p className="modal-btn hvr-skew-forward" onClick={openModal}>Weather Dashboard</p>
       </div>
     );
 };

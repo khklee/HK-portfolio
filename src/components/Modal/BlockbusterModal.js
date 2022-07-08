@@ -43,18 +43,17 @@ function BlockbusterModal() {
               <main className="modal-main">
                 <img className='proj-img' src={blockbuster} alt="screenshot of blockbuster video"/>
                 <p className='modal-text'>
-                    E-commerce website for Blockbuster Video which customers can purchase movies.
-                    I tried to make an engaging and functional website for customers to create, edit and delete comments on the movies in the website.
+                  E-commerce website for Blockbuster Video which customers can purchase movies.
+                  I tried to make an engaging and functional website for customers to create, edit and delete comments on the movies in the website.
                 </p>
                 <p className='modal-text'>
-                    React.js/Javascript/HTML/CSS/
-                    Node.js/Express.js/NoSQL/MongoDB/GraphQl/JWT
+                  React.js Javascript HTML CSS Node.js Express.js NoSQL MongoDB GraphQl JWT
                 </p>
               </main>
             </div>
           </>
         )}
-        <button className="modal-btn hvr-skew-forward" onClick={openModal}>Blockbuster Video</button>
+        <p className="modal-btn hvr-skew-forward" onClick={openModal}>Blockbuster Video</p>
       </div>
     );
 };

@@ -46,13 +46,13 @@ function TaskModal(props) {
                 Tasks can be deleted and edtied.
                 </p>
                 <p className='modal-text'>
-                    HTML/CSS/JavaScript          
+                    HTML CSS JavaScript          
                 </p>
               </main>
             </div>
           </>
         )}
-        <button className="modal-btn hvr-skew-forward" onClick={openModal}>Taskmaster</button>
+        <p className="modal-btn hvr-skew-forward" onClick={openModal}>Taskmaster</p>
       </div>
     );
 };

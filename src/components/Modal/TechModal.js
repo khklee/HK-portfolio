@@ -47,13 +47,13 @@ function TechModal(props) {
                     Users can publish articles, blog posts, and their thoughts and opinions by signing in. They can also update or delete their posts and leave a comment to posts as well.
                 </p>
                 <p className='modal-text'>
-                    HTML/JavaScript/CSS/Handlebars/Node.js/Express.js/MySQL/Sequelize          
+                    HTML JavaScript CSS Handlebars Node.js Express.js MySQL Sequelize          
                 </p>
               </main>
             </div>
           </>
         )}
-        <button className="modal-btn hvr-skew-forward" onClick={openModal}>Tech Journal</button>
+        <p className="modal-btn hvr-skew-forward" onClick={openModal}>Tech Journal</p>
       </div>
     );
 };

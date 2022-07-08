@@ -46,13 +46,13 @@ function CandyModal() {
                 It has a databse of price, quantity, and products of canides and a user can create, update and delete the data in the application.
                 </p>
                 <p className='modal-text'>
-                    HTML/CSS/JavaScript/Handlebars/Node.js/Express.js/MySQL/Sequelize          
+                    HTML CSS JavaScript Handlebars Node.js Express.js MySQL Sequelize          
                 </p>
               </main>
             </div>
           </>
         )}
-        <button className="modal-btn hvr-skew-forward" onClick={openModal}>Candy Inventory</button>
+        <p className="modal-btn hvr-skew-forward" onClick={openModal}>Candy Inventory</p>
       </div>
     );
 };

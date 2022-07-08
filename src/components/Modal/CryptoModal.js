@@ -46,13 +46,13 @@ function CryptoModal(props) {
                     It allows its user's to check the prices of crypto via search and also shows the user the top 8 most valuable crypto on the market at the given time.
                 </p>
                 <p className='modal-text'>
-                    HTML/CSS/JavaScript/API          
+                    HTML CSS JavaScript API          
                 </p>
               </main>
             </div>
           </>
         )}
-        <button className="modal-btn hvr-skew-forward" onClick={openModal}>Crypto Checker</button>
+        <p className="modal-btn hvr-skew-forward" onClick={openModal}>Crypto Checker</p>
       </div>
     );
 };
